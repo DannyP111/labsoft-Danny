@@ -1,0 +1,53 @@
+:root {
+  --blanco: #ffffff;
+  --negro: #000000;
+  --primario: #ffc107;
+  --secundario: #1a3871;
+  --gris: #757575;
+  --grisClaro: #dfe9f3;
+  --grisOscuro: #929292;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 16px; /*1rem = 10px */
+  font-family: "Krub", sans-serif;
+}
+
+span {
+  font-size: 2rem;
+}
+
+.titulo {
+  text-align: center;
+}
+
+p {
+  color: rgb(0, 0, 0);
+}
+
+.contenedor {
+  width: 120rem;
+  margin: 0 auto;
+}
+
+.nav-bg {
+  background-color: var(--secundario);
+}
+
+.navegacion-principal{
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navegacion-principal a{
+    color: var(--blanco);
+    text-decoration: none;
+    font-weight: bold;
+}
+
